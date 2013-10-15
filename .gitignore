@@ -6,6 +6,9 @@
 *.user
 *.sln.docstates
 
+# InternalOnly data files - excluded for privacy
+app/services/
+
 # Build results
 
 [Dd]ebug/
