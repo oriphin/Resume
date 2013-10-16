@@ -101,6 +101,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Content\ico\" />
     <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
@@ -131,11 +132,6 @@
     <Content Include="Content\fonts\josefinslab-light-webfont.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="Content\ico\apple-touch-icon-114-precomposed.png" />
-    <Content Include="Content\ico\apple-touch-icon-144-precomposed.png" />
-    <Content Include="Content\ico\apple-touch-icon-57-precomposed.png" />
-    <Content Include="Content\ico\apple-touch-icon-72-precomposed.png" />
-    <Content Include="Content\ico\favicon.png" />
     <Content Include="Content\img\hero-bg.png" />
     <Content Include="Content\img\profile-picture.jpg" />
     <Content Include="Content\img\profile-picture.png" />
