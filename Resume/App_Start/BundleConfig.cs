@@ -9,7 +9,10 @@ namespace Resume
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/lib/jquery-{version}.js"));
+                        "~/lib/jquery-{version}.min.js",
+                        "~/lib/jquery.ui.map.full.min.js",
+                        "~/lib/jquery.scrollTo-1.4.3.1-min.js",
+                        "~/lib/jquery.localscroll-1.2.7-min.js"));
 
             // Use the development version of Modernizr to develop with and learn from. Then, when you're
             // ready for production, use the build tool at http://modernizr.com to pick only the tests you need.
