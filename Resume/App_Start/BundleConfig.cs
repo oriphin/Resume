@@ -9,7 +9,7 @@ namespace Resume
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/jquery").Include(
-                        "~/lib/jquery-{version}.min.js",
+                        "~/lib/jquery-{version}.js",
                         "~/lib/jquery.ui.map.full.min.js",
                         "~/lib/jquery.scrollTo-1.4.3.1-min.js",
                         "~/lib/jquery.localscroll-1.2.7-min.js"));
