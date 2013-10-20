@@ -3,7 +3,7 @@ using Resume.Domain;
 
 namespace Resume.DataLayer
 {
-    class ResumeDomainContext:DbContext
+    public class ResumeDomainContext:DbContext
     {
         public DbSet<About> Abouts { get; set; }
         public DbSet<Contact> Contacts { get; set; }
