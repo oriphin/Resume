@@ -1,9 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.20827.3
+VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume", "Resume\Resume.csproj", "{60ACDE44-39DE-4C1F-BF26-411BBF60CF3B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.Domain", "Resume.Domain\Resume.Domain.csproj", "{748DA89A-6307-4F29-ACC6-4580BCF0749F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Resume.DataLayer", "Resume.DataLayer\Resume.DataLayer.csproj", "{37057289-8869-448B-9DD4-8016C9BF3E87}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{60ACDE44-39DE-4C1F-BF26-411BBF60CF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60ACDE44-39DE-4C1F-BF26-411BBF60CF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60ACDE44-39DE-4C1F-BF26-411BBF60CF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{748DA89A-6307-4F29-ACC6-4580BCF0749F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{748DA89A-6307-4F29-ACC6-4580BCF0749F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{748DA89A-6307-4F29-ACC6-4580BCF0749F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{748DA89A-6307-4F29-ACC6-4580BCF0749F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37057289-8869-448B-9DD4-8016C9BF3E87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37057289-8869-448B-9DD4-8016C9BF3E87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37057289-8869-448B-9DD4-8016C9BF3E87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37057289-8869-448B-9DD4-8016C9BF3E87}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

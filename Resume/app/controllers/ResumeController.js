@@ -1,4 +1,4 @@
-'use strict';
+"use strict";
 
 resumeApp.controller('resumeController',
     function resumeController($scope, resumeData) {

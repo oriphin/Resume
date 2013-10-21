@@ -111,14 +111,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Models\About.cs" />
-    <Compile Include="Models\Contact.cs" />
-    <Compile Include="Models\Education.cs" />
-    <Compile Include="Models\Job.cs" />
-    <Compile Include="Models\Location.cs" />
-    <Compile Include="Models\Person.cs" />
-    <Compile Include="Models\Resume.cs" />
-    <Compile Include="Models\Snapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +157,9 @@
     <Content Include="Content\fonts\josefinslab-light-webfont.woff" />
     <Content Include="lib\angular.min.js.map" />
     <Content Include="lib\angular-sanitize.min.js.map" />
+    <Content Include="app\controllers\resumeController.min.js.map">
+      <DependentUpon>resumeController.js</DependentUpon>
+    </Content>
     <None Include="lib\jquery-1.8.2.intellisense.js" />
     <Content Include="lib\html5shiv.js" />
     <Content Include="lib\jquery-1.8.2.js" />

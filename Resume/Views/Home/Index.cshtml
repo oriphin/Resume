@@ -36,7 +36,7 @@
                     </div>
                 </div>
                 <div class="col-md-6 right">
-                    <h1 class="hide">TROY SCHUETRUMPF</h1>
+                    <h1 class="hide">{{person.firstname | uppercase }} {{person.secondname | uppercase }}</h1>
                     <h2 class="heading">HELLO, I'M {{person.firstname | uppercase }}</h2>
                     <p>A {{person.resume.jobs[0].title}} from {{person.location.city}}. Want to know more about me?</p>
                     <a href="#about-me" class="btn btn-default btn-lg">READ MORE</a><a href="#" class="btn btn-primary btn-lg">DOWNLOAD vCARD</a>
@@ -176,10 +176,10 @@
 <!-- END WRAPPER -->
 
 @section scripts {
-<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 <script type="text/javascript" src="~/app/main.js"></script>
 <script type="text/javascript" src="~/app/app.js"></script>
 <script type="text/javascript" src="~/app/services/resumeData.js"></script>
 <script type="text/javascript" src="~/app/controllers/resumeController.js"></script>
 <script type="text/javascript" src="~/app/filters.js"></script>
+<script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
 }
